@@ -1,0 +1,25 @@
+site_name: NorthCode Vault
+repo_url: https://github.com/TheProjectAurora/knowledgebase
+theme:
+  name: material
+  logo: assets/logo-wide.svg
+  favicon: assets/favicon-96x96.png
+  custom_dir: theme/
+  font:
+    text: IBM Plex Serif
+    code: IBM Plex Mono
+  features:
+    - navigation.expand
+extra_css:
+ - css/extra.css
+ - css/colors.css
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/NorthCodeLtd
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/northcodeltd/
