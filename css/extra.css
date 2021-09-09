@@ -1,0 +1,32 @@
+.md-header__button.md-logo img {
+    width: 8rem;
+    height: 2rem;
+}
+.md-header__button.md-logo {
+    padding: 0;
+    margin: 0;
+}
+.md-content p > a {
+    background-color: var(--md-accent-fg-color);
+    border-left: 2px solid var(--md-accent-fg-color);
+    border-right: 2px solid var(--md-accent-fg-color);
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.md-content p > a:hover {
+    background-color: var(--md-primary-fg-color);
+    border-left: 2px solid var(--md-primary-fg-color);
+    border-right: 2px solid var(--md-primary-fg-color);
+}
+
+:root {
+    
+    --md-primary-fg-color:        #1c1c1c;
+    --md-primary-fg-color--light: #a9f5e4;
+    --md-primary-fg-color--dark:  #1c1c1c;
+    --md-accent-fg-color:         #a9f5e4;
+}
+
+:root > * {  
+    --md-code-bg-color:           #a9f5e4;
+}
