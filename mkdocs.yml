@@ -9,13 +9,18 @@ theme:
     text: IBM Plex Serif
     code: IBM Plex Mono
   features:
-    - navigation.expand
+    - navigation.instant
+    - navigation.tabs
 extra_css:
  - css/extra.css
- - css/colors.css
 
 plugins:
   - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra:
   social:
