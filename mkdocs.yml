@@ -1,9 +1,13 @@
 site_name: NorthCode Vault
-repo_url: https://github.com/TheProjectAurora/knowledgebase
+repo_url: https://github.com/TheProjectAurora/vault
+repo_name: TheProjectAurora/vault
+edit_uri: edit/main/docs
 theme:
   name: material
   logo: assets/logo-wide.svg
   favicon: assets/favicon-96x96.png
+  icon:
+    repo: fontawesome/brands/github
   custom_dir: theme/
   font:
     text: IBM Plex Serif
