@@ -21,9 +21,16 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+         custom_icons:
+           - theme/.icons
 extra:
   social:
+    - icon: northcode
+      link: https://northcode.fi
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/NorthCodeLtd
     - icon: fontawesome/brands/linkedin
